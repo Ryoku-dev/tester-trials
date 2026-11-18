@@ -1,0 +1,13 @@
+name: Contributor proof
+description: Only through the link Mika sends in your contributor application
+title: Contributor proof
+body:
+  - type: markdown
+    attributes:
+      value: Mika fills this in from your application link. Leave the code as it is and submit, she deletes the issue once she reads it.
+  - type: input
+    id: code
+    attributes:
+      label: Proof code
+    validations:
+      required: true
